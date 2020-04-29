@@ -10,12 +10,12 @@ public class Inicio
         int resu;
         valor = new JavaJUnitCalculadora(8, 2);
         resu = valor.suma();
-        System.out.printf("Suma: %d\n", resu);
+        System.out.printf("El resultado de la suma es: %d\n", resu);
         resu = valor.resta();
-        System.out.printf("Resta: %d\n", resu);
+        System.out.printf("El resultado de la resta es: %d\n", resu);
         resu = valor.multiplica();
-        System.out.printf("Multiplica: %d\n", resu);
+        System.out.printf("El resultado de la multiplicación es: %d\n", resu);
         resu = valor.divide();
-        System.out.printf("Divide: %d\n", resu);
+        System.out.printf("El resultado de la división es: %d\n", resu);
     }
 }
