@@ -8,7 +8,7 @@ public class Inicio
     {
         JavaJUnitCalculadora valor;
         int resu;
-        valor = new JavaJUnitCalculadora(150, 25);
+        valor = new JavaJUnitCalculadora(1250, 125);
         resu = valor.suma();
         System.out.printf("El resultado de la suma es: %d\n", resu);
         resu = valor.resta();
